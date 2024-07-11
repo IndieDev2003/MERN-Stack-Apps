@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Footer from '@/Components/Footer/Footer';
 
-const page = ({params}) => {
+const Page = ({params}) => {
 
     const [data,setData]=useState(null);
 
